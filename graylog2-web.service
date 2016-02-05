@@ -5,8 +5,8 @@ BindTo=network.target
 [Service]
 Type=simple
 User=root
-PIDFile=/opt/graylog-web-interface-1.0.0/RUNNING_PID
-ExecStart=/opt/graylog-web-interface-1.0.0/bin/graylog-web-interface
+PIDFile=/var/run/graylog-web.pid
+ExecStart=/usr/share/graylog-web/bin/graylog-web-interface
 
 [Install]
 WantedBy=multi-user.target

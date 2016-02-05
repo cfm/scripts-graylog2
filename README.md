@@ -5,8 +5,8 @@ Here you can find systemd scripts for latest (v0.20.6) graylog2-server and
 graylog2-web. Please note, that these scripts assume couple of things:
 
 * systemd is in version 208 or newer
-* graylog2-server is located in /opt/graylog2-server
-* graylog2-web is located in /opt/graylog2-web
+* graylog2-server is located in /usr/share/graylog-server
+* graylog2-web is located in /usr/share/graylog-web
 * graylog2-server is running on the same machine as Elasticsearch and MongoDB
 (if this is not the case, just remove _Requires_ section from graylog2-server
 script)
@@ -40,5 +40,7 @@ Authors
 ===
 
 Filip "Hadret" Chabik <hadret@gmail.com> / @hadret
+
+Cory Francis Myers <cfm@panix.com> / @cfm
 
 _(Remember to add yourself when pull requesting)._ 
